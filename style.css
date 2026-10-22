@@ -61,7 +61,7 @@ header {
     transition: transform 0.2s ease;
 }
 /* hero section */
-.hero {
+.hero,.About {
     width: 90%;
     max-width: 1100px;
     margin: auto;
@@ -327,4 +327,216 @@ a.button-ios:hover {
     background-color: #ffffff;
     transform: translateY(-4px);
     box-shadow: 0 10px 24px rgba(18, 55, 42, 0.12);
+}
+.About {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(18, 55, 42, 0.04);
+    border: 1px solid #e5e9e8;
+    padding: 50px 40px;
+}
+.about-kiri,.about-kanan {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.about-title {
+    font-size: 36px;
+    color: #12372A;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+.about-desc {
+    font-size: 15px;
+    color: #52606d;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.value-item {
+    display: flex;
+    gap: 16px;
+    background-color: #f8fcf9;
+    padding: 16px 20px;
+    border-radius: 16px;
+    border: 1px solid #e5e9e8;
+    margin-bottom: 18px;
+}
+.value-icon {
+    border-radius: 12px;
+    font-size: 18px;
+    color: #2aad70;
+    background-color: #e7f7ee;
+    width: 60px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.value-title {
+    font-weight: 700;
+    font-size: 15px;
+    color: #12372A;
+}
+.value-desc {
+    font-size: 13px;
+    color: #52606d;
+    line-height: 1.5;
+}
+.box-kanan {
+    background-color: #12372A;
+    color: white;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 10px 25px rgba(18, 55, 42, 0.15);
+}
+.title-kanan {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 25px;
+}
+.desc-kanan {
+    font-size: 14px;
+    color: #cbefdb;
+}
+.card-kanan {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    
+}
+.card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 6px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 5px 18px rgba(18, 55, 42, 0.06);
+    width: 48%;
+    color: #7a8982;
+    font-size: 12px;
+    line-height: 1.4;
+    transition: transform 0.2s ease;
+}
+.title-2 {
+    color: #2aad70;
+    font-size: 20px;
+    font-weight: 800;
+}
+.desc-2 {
+    color: white;
+}
+.card-item:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(18, 55, 42, 0.12);
+}
+.Kontak {
+    padding: 60px 20px;
+}
+.hubungi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+.title-kontak {
+    font-weight: 800;
+    color: #12372A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+    margin-bottom: 6px;
+}
+.desc-kontak {
+    font-size: 15px;
+    color: #52606d;
+    line-height: 1.6;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.kontak-item {
+    display: flex;
+    gap: 16px;
+    background-color: #ffffff;
+    padding: 16px 20px;
+    border-radius: 16px;
+    border: 1px solid #e5e9e8;
+    margin-bottom: 18px;
+    align-items: center;
+}
+.kontak-value-kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 520px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.kontak-icon {
+    border-radius: 12px;
+    font-size: 18px;
+    color: #2aad70;
+    background-color: #e7f7ee;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kontak-title {
+    font-size: 15px;
+    color: #52606d;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+.kontak-desc {
+    font-weight: 700;
+    color: #12372A;
+    display: flex;
+}
+.Kontak-box {
+    display: flex;
+    border: 1px solid #e5e9e8;
+    border-radius: 16px;
+    background-color: white;
+    padding: 16px 20px;
+    gap: 8px;
+    
+}
+.kirim-formulir {
+    font-weight: 700;
+    color: #12372A;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.kontak-value-kanan {
+    flex: 1.2;
+    min-width: 0;
+    padding: 30px;
+    background-color: white;
+    border-radius: 24px;
+    border: 1px solid #e5e9e8;
+    box-shadow: 0 10px 30px rgba(18, 55, 42, 0.06);
 }
