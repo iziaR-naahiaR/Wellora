@@ -569,10 +569,11 @@ a.button-ios:hover {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.footer-separator {
+#footer-separator {
     height: 1px;
     background-color: #52606d;
     margin: 0 auto;
     width: 60%;
+    border: none;
 }
 
