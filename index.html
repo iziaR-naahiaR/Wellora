@@ -21,10 +21,10 @@
         <!-- menu -->
          <nav class="nav-menu">
             <a href="#" class="nav-item active">Beranda</a>
-            <a href="#" class="nav-item">Fitur</a>
-            <a href="#" class="nav-item">Tentang Kami</a>
+            <a href="#feature" class="nav-item">Fitur</a>
+            <a href="#abouts" class="nav-item">Tentang Kami</a>
             <a href="#" class="nav-item">Artikel</a>
-            <a href="#" class="nav-item">Kontak</a>
+            <a href="#contact" class="nav-item">Kontak</a>
          </nav>
 
         <!-- tombol -->
@@ -60,7 +60,7 @@
         </div>
      </section>
 
-     <section class="features">
+     <section class="features" id="feature">
         <div class="featured-grid">
             <div class="feature-card">
                 <div class="feature-icon">
@@ -142,7 +142,8 @@
             </article>
         </div>
      </section>
-     <section class="About">
+
+     <section class="About" id="abouts">
         <div class="about-kiri">
             <span class="about-badge">
                 <i class="fa-solid fa-leaf"></i> Tentang Wellora
@@ -237,7 +238,9 @@
             </div>
         </div>        
      </section>
-     <section class="header-kontak">
+
+     <section class="Kontak" id="contact">
+        <div class="header-kontak">
          <span class="hubungi">
             <i class="fa-solid fa-headset"></i> Hubungi Kami
         </span>
@@ -247,8 +250,7 @@
         <p class="desc-kontak">
             Punya pertanyaan seputar fitur aplikasi Wellora, kemitraan, atau ingin konsultasi? Kirimkan <br> pesan Anda kepada tim kami.
         </p>
-     </section>
-     <section class="Kontak">
+     </div>
         <div class="kontak-container">
         <div class="kontak-value-kiri">
             <div class="kontak-item">
@@ -313,6 +315,7 @@
         </div>
         </div>
      </section>
+
      <footer>
         <div class="footer-container">
             <div class="footer-logo">
@@ -337,5 +340,27 @@
             </div>
         </div>
      </footer>
+
+     <button class="button-back-to-top" id="backtotop" onclick="KeatasHalaman()">
+        <i class="fa-solid fa-arrow-up-long"></i>
+     </button>
+
+     <!-- getElementById : mengambil elemen html yang memiliki id backtotop -->
+     <script>
+        window.addEventListener('scroll', function() {
+            const btntop = document.getElementById('backtotop');
+            if (window.scrollY > 300){
+                btntop.style.display = 'flex';
+            }
+            else {
+                btntop.style.display = 'none';
+            }
+        });
+        function KeatasHalaman(){
+            window.scrollTo({
+                top : 0, behavior: 'smooth'
+            })
+        }
+     </script>
 </body>
 </html>

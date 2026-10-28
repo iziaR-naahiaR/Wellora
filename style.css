@@ -1,8 +1,22 @@
+:root {
+    --warna-text-utama : #12372A;
+    --warna-button : #2ead70;
+    --warna-desc : #52606d;
+    --size-text-desc : 16px;
+    --size-judul : 48px
+}
+
 /* reset all */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 60px;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,7 +39,7 @@ header {
 .nav-logo {
     font-size: 22px;
     font-weight: 800;
-    color: #12372A;
+    color: var(--warna-text-utama);
     text-decoration: none;
 }
 .nav-menu {
@@ -40,11 +54,11 @@ header {
     font-size: 15px;
 }
 .nav-item:hover, .nav-item.active{
-    color: #2ead70;
+    color: var(--warna-button);
     transition: color 0.2s ease;
 }
 .btn-unduh {
-    background-color: #2ead70;
+    background-color: var(--warna-button);
     padding: 10px 22px;
     border-radius: 25px;
     color: white;
@@ -81,7 +95,7 @@ header {
 }
 .badge-hero {
     background-color: #e7f7ee;
-    color: #2ead70;
+    color: var(--warna-button);
     border-radius: 20px;
     padding: 8px 16px;
     font-weight: 700;
@@ -92,18 +106,18 @@ header {
     font-weight: 800;
     font-size: 48px;
     line-height: 1.15;
-    color: #12372A;
+    color: var(--warna-text-utama);
     margin-bottom: 20px;
     margin-top: 20px;
 }
 .deskripsi-hero {
-    font-size: 16px;
-    color: #52606d;
+    font-size: var(--size-text-desc);
+    color: var(--warna-desc);
     line-height: 1.65;
     margin-bottom: 30px;
 }
 .button-ios {
-    background-color: #2ead70;
+    background-color: var(--warna-button);
     padding: 10px 22px;
     border-radius: 25px;
     color: white;
@@ -124,13 +138,13 @@ a.button-ios:hover {
     background-color: white;
     padding: 10px 22px;
     border-radius: 25px;
-    color: #2ead70;
+    color: var(--warna-button);
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
     align-items: center;
     box-shadow: 0 16px 48px rgba(46, 173, 112, 0.25);
-    border: 3px solid #2ead70;
+    border: 3px solid var(--warna-button);
     
 }
 .button-andro:hover {
@@ -160,7 +174,7 @@ a.button-ios:hover {
   border-radius: 16px;
   box-shadow: 0 5px 18px rgba(18, 55, 42, 0.07);
   gap: 16px;
-  color: #12372a;
+  color: var(--warna-text-utama);
   text-align: center;
   transition: transform 0.2s ease;
 }
@@ -225,14 +239,14 @@ a.button-ios:hover {
 .solusi-copy h2 {
     max-width: 480px;
     margin-bottom: 12px;
-    color: #12372a;
-    font-size: 32px;
+    color: var(--warna-text-utama);
+    font-size: var(--size-judul);
     line-height: 1.2;
 }
 
 .solusi-desc {
-    margin-bottom: 18px;
-    color: #52606d;
+    margin-bottom: var(--size-text-desc);
+    color: var(--warna-desc);
     font-size: 14px;
     line-height: 1.7;
 }
@@ -307,7 +321,7 @@ a.button-ios:hover {
 }
 
 .solusi-card strong {
-    color: #12372a;
+    color: var(--warna-text-utama);
     font-size: 22px;
     line-height: 1.25;
 }
@@ -341,15 +355,15 @@ a.button-ios:hover {
     flex-direction: column;
 }
 .about-title {
-    font-size: 36px;
-    color: #12372A;
+    font-size: var(--size-judul);
+    color: var(--warna-text-utama);
     font-weight: 800;
     line-height: 1.25;
     margin-bottom: 16px;
 }
 .about-desc {
-    font-size: 15px;
-    color: #52606d;
+    font-size: var(--size-text-desc);
+    color: var(--warna-desc);
     line-height: 1.6;
     margin-bottom: 25px;
 }
@@ -376,15 +390,15 @@ a.button-ios:hover {
 .value-title {
     font-weight: 700;
     font-size: 15px;
-    color: #12372A;
+    color: var(--warna-text-utama);
 }
 .value-desc {
     font-size: 13px;
-    color: #52606d;
+    color: var(--warna-desc);
     line-height: 1.5;
 }
 .box-kanan {
-    background-color: #12372A;
+    background-color: var(--warna-text-utama);
     color: white;
     padding: 30px;
     border-radius: 24px;
@@ -450,7 +464,7 @@ a.button-ios:hover {
 }
 .title-kontak {
     font-weight: 800;
-    color: #12372A;
+    color: var(--warna-text-utama);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -459,7 +473,7 @@ a.button-ios:hover {
 }
 .desc-kontak {
     font-size: 15px;
-    color: #52606d;
+    color: var(--warna-desc);
     line-height: 1.6;
     margin-bottom: 6px;
     display: flex;
@@ -496,13 +510,13 @@ a.button-ios:hover {
 }
 .kontak-title {
     font-size: 15px;
-    color: #52606d;
+    color: var(--warna-desc);
     line-height: 1.5;
 }
 .kontak-desc {
     font-weight: 700;
     font-size: 15px;
-    color: #12372A;
+    color: var(--warna-text-utama);
 } 
 .Kontak-box {
     display: flex;
@@ -533,7 +547,7 @@ a.button-ios:hover {
     align-items: flex-start;
 }
 .footer-container {
-    background-color: #12372A;
+    background-color: var(--warna-text-utama);
 }
 .footer-logo {
     font-size: 32px;
@@ -565,15 +579,38 @@ a.button-ios:hover {
 .footer-social {
     display: flex;
     justify-content: center;
-    color: #52606d;
+    color: var(--warna-desc);
     padding-top: 30px;
     padding-bottom: 30px;
 }
 #footer-separator {
     height: 1px;
-    background-color: #52606d;
+    background-color: var(--warna-desc);
     margin: 0 auto;
     width: 60%;
     border: none;
 }
+.button-back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    background-color: var(--warna-button);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(46, 173, 112, 0.4);
+    z-index: 999;
+    transition: all 0.2s ease;
+    display: none;
 
+}
+.button-back-to-top:hover {
+    background-color: var(--warna-text-utama);
+    transform: translateY(-3px);
+}
