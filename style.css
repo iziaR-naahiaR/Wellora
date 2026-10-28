@@ -470,6 +470,7 @@ a.button-ios:hover {
     justify-content: center;
     line-height: 1.6;
     margin-bottom: 6px;
+    text-align: center;
 }
 .desc-kontak {
     font-size: 15px;
