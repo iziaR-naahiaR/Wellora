@@ -737,6 +737,9 @@ a.button-ios:hover {
     margin-bottom: 12px;
     font-weight: 800;
 }
+.bagikan-form {
+    gap: 12px;
+}
 .bagikan {
     display: flex;
     width: 100%;
@@ -747,11 +750,91 @@ a.button-ios:hover {
     padding: 0 12px;
     margin-top: 12px;
 }
-.footer-container1 {
+.bagikan-artikel {
     display: flex;
-    gap: 30px;
-    align-items: flex-start;
-    margin-top: 100px;
+    gap: 24px;
+    
+}
+.bagikan-link {
+    color: #12372A;
+    text-decoration: none;
+    font-weight: 600;
+}
+.bagikan-text {
+    color: var(--warna-text-utama);
+    font-weight: 600;
+}
+.bagikan-logo {
+    color: #2aad70;
+}
+.artikel-platform {
+    border-radius: 20px;
+    background-color: #e7f7ee;
+    color: #2aad70;
+    padding: 4px 10px;
+    border: 1px solid #e5e7eb;
+    font-size: 10px;
+}
+.artikel-terkait {
+    color: var(--warna-text-utama);
+    font-weight: 800;
+    margin-bottom: 12px;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
+.footer-container1 {
+    background-color: var(--warna-text-utama);
+    margin-top: 100px;
+}
+.footer-logo1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.footer-desc1 {
+    color: #769684;
+    margin-top: 30px;
+    text-align: center;
+}
+.footer-links1 {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-link1 {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.footer-social1 {
+    display: flex;
+    justify-content: center;
+    color: var(--warna-desc);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#footer-separator1 {
+    height: 1px;
+    background-color: var(--warna-desc);
+    margin: 0 auto;
+    width: 60%;
+    border: none;
+}
+.artikel-meta1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    padding: 0 12px;
+}
 
