@@ -377,24 +377,36 @@
                 <h3 class="kirim-formulir">
                     Kirim Pesan Langsung
                 </h3>
-                <p>
+                <p class="kirim-desc">
                     Isi formulir berikut dan tim kami akan membalas dalam 1x24 jam kerja.
                 </p>
                 <div class="form-isi">
-                    <label>
-                        Nama Lengkap <input type="text" name="nama" placeholder="Masukkan nama Anda">
+                    <label class="form-nama">
+                        <span class="form-label">
+                           Nama Lengkap  
+                        </span>
+                        <input type="text" name="nama" placeholder="Masukkan nama Anda" class="form-input">
                     </label>
-                    <label>
-                        Alamat Email <input type="text" name="email" placeholder="nama@email.com">
+                    <label class="form-email">
+                        <span class="form-label">
+                            Alamat Email
+                        </span>
+                        <input type="text" name="email" placeholder="nama@email.com" class="form-input">
                     </label>
                 </div>
-                <label>
-                    Subjek Pesan <input type="text" name="subjek" placeholder="Contoh : Pertanyaan seputar fitur">
+                <label class="form-subjek">
+                    <span class="form-label">
+                        Subjek Pesan
+                    </span>
+                    <input type="text" name="subjek" placeholder="Contoh : Pertanyaan seputar fitur" class="form-input">
                 </label>
-                <label>
-                    Pesan Anda <textarea name="pesan" rows="4" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..."></textarea>
+                <label class="form-pesan">
+                    <span class="form-label">
+                        Pesan Anda
+                    </span>
+                    <textarea name="pesan" rows="4" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..." class="form-input"></textarea>
                 </label>
-                <button type="button">
+                <button type="button" class="kirim-button">
                     Kirim Pesan Langsung <i class="fa-solid fa-paper-plane"></i>
                 </button>
             </form>
