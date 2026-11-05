@@ -253,56 +253,28 @@
         </p>
      </div>
 
-        <div class="artikel-grid">
-            <div class="artikel-card">
+        <main class="artikel-grid" id="daftar-kartu"></main>
+
+        <template id="template">
+            <a class="artikel-card">
                 <div class="artikel-img-box">
                     <img src="asset/photo-1498837167922-ddd27525d352.avif" alt="Pola makan sehat Nutrisi" width="600" class="foto">
                 </div>
                 <div class="artikel-konten">
                     <div class="artikel-meta">
-                        <span class="artikel-font">Nutrisi</span>
-                        <span class="artikel-waktu-baca">5 mnt baca</span>
+                        <span class="artikel-font"></span>
+                        <span class="artikel-waktu-baca"></span>
                     </div>
-                    <h3 class="artikel-title">5 Langkah Memulai Pola Makan <br> Sehat Tanpa Diet Menyiksa</h3>
-                    <p class="artikel-desc">
-                        Pelajari cara menyeimbangkan porsi karbohidrat, <br> protein, dan serat harian secara bertahap tanpa <br> perlu rasa lapar berlebihan.
-                    </p>
-                    <a href="detail-berita.html?id=0" class="artikel-link">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i> </a>
+                    <h3 class="artikel-title"></h3>
+                    <p class="artikel-desc"></p>
+                    <span class="artikel-link">
+                        <span class="artikel-link-text"></span>
+                        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                    </span>
                 </div>
-            </div>
-            <div class="artikel-card">
-                <div class="artikel-img-box">
-                    <img src="asset/photo-1476480862126-209bfaa8edc8.avif" alt="Berjalan setiap hari" width="600" class="foto">
-                </div>
-                <div class="artikel-konten">
-                    <div class="artikel-meta">
-                        <span class="artikel-font">Kebugaran</span>
-                        <span class="artikel-waktu-baca">4 mnt baca</span>
-                    </div>
-                    <h3 class="artikel-title">Berapa Langkah Kaki yang <br> Sebenarnya Dibutuhkan Tubuh?</h3>
-                    <p class="artikel-desc">
-                        Kupas tuntas mitos 10.000 langkah dan fakta ilmiah <br> tentang kebutuhan gerak harian untuk menjaga <br> kesehatan jantung dan stamina.
-                    </p>
-                    <a href="detail-kebugaran.html?id=1" class="artikel-link">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i> </a>
-                </div>
-            </div>
-            <div class="artikel-card">
-                <div class="artikel-img-box">
-                    <img src="asset/photo-1541781774459-bb2af2f05b55.avif" alt="Tidur nyenyak" width="600" class="foto">
-                </div>
-                <div class="artikel-konten">
-                    <div class="artikel-meta">
-                        <span class="artikel-font">Pola Tidur</span>
-                        <span class="artikel-waktu-baca">6 mnt baca</span>
-                    </div>
-                    <h3 class="artikel-title">Rahasia Tidur Nyenyak Demi Produktivitas Maksimal</h3>
-                    <p class="artikel-desc">
-                        Kualitas tidur menentukan metabolisme tubuh. <br> Terapkan 4 kebiasaan malam ini untuk bangun <br> dengan energi penuh keesokan hari.
-                    </p>
-                    <a href="detail-pola-tidur.html?id=2" class="artikel-link">Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i> </a>
-                </div>
-            </div>
-        </div>
+            </a>
+        </template>
+
      </section>
 
      <section class="Kontak" id="contact">
@@ -443,6 +415,7 @@
         <i class="fa-solid fa-arrow-up-long"></i>
      </button>
 
+     <script src="script.js"></script>
      <!-- getElementById : mengambil elemen html yang memiliki id backtotop -->
      <script>
         window.addEventListener('scroll', function() {

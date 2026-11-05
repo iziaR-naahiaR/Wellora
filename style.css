@@ -893,4 +893,15 @@ a.button-ios:hover {
     margin-bottom: 12px;
     padding: 0 12px;
 }
+a {
+    text-decoration: none;
+}
+textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ebfff4;
+}
+input {
+    border-color: #2aad70;
+    background-color: #ebfff4;
+}
 
